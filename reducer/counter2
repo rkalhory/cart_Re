@@ -1,0 +1,18 @@
+
+
+const counter2=(state=1,action)=>{
+    switch (action.type) {
+        case 'INCREMENT2':
+            return state+action.payload;
+            break;
+        case 'DECREMENT2':
+            return state-action.payload;
+            break;
+        default:
+            return state
+
+    }
+}
+
+
+export default counter2
