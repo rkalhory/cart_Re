@@ -1,0 +1,11 @@
+export function increment1(){
+    return {
+        type:'INCREMENT1'
+    }
+}
+
+export function decrement1(){
+    return {
+        type:'DECREMENT1'
+    }
+}
