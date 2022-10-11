@@ -1,0 +1,13 @@
+export function increment2(num){
+    return {
+        type:'INCREMENT2',
+        payload:num
+    }
+}
+
+export function decrement2(num){
+    return {
+        type:'DECREMENT2',
+        payload:num
+    }
+}
