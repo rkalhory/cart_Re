@@ -1,0 +1,21 @@
+
+
+const counter1=(state=0,action)=>{
+    console.log(action)
+    console.log("stateeeee",state)
+    switch (action.type) {
+        case 'INCREMENT1':
+            console.log('state 1:',state,'-----',state+1)
+            return state+1;
+            break;
+        case 'DECREMENT1':
+            return state-1;
+            break;
+        default:
+            return state
+
+    }
+}
+
+
+export default counter1
